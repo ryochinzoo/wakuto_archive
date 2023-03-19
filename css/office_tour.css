@@ -1,0 +1,515 @@
+.tour_area {}
+.tour_top_wrapper {
+	width: 100%;
+	height: 677px;
+	color: #fff;
+	background-color: #64a49c;
+	position: relative;
+}
+.tour_headline_wrapper {
+	position: relative;
+	width: 50%;
+    padding-top: 200px;
+    padding-left: 15%;
+}
+.tour_top_headline {
+	width: 80%;
+}
+.tour_top_headline img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.tour_top_description {
+	width: 80%;
+	margin-top: 15px;
+	margin-left: 8px;
+	line-height: 1.8;
+}
+.tour_top_illustration-1 {
+	width: 80px;
+	position: absolute;
+	top: 35%;
+    left: 12%;
+}
+.tour_top_illustration-1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.tour_top_illustration-2 img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.building {
+	width: 440px;
+    position: absolute;
+    right: 5%;
+    bottom: -5px;
+}
+.building img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: bottom;
+}
+
+.tour_main_wrapper {
+	width: 100%;
+	display: flex;
+	position: relative;
+	margin: 20px 0;
+}
+.detail_area {
+	width: 67%;
+	display: flex;
+	position: relative;
+}
+.image_area {
+	width: 33%;
+}
+.image_area img {
+	width: 100%;
+	height: 100%;
+    object-fit: contain;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+}
+
+.illustration-1 {
+	position: absolute;
+    width: 66px;
+    bottom: 20%;
+    left: 11%;
+}
+.illustration-2 {
+	position: absolute;
+    width: 105px;
+    right: 3%;
+    top: 10%;
+}
+.illustration-3 {
+    position: absolute;
+    width: 120px;
+    bottom: 0%;
+    left: 2%;
+}
+
+.illustration-4 {
+	position: absolute;
+	max-width: 125px;
+	right: 7%;
+	top: 7%;
+}
+.illustration-5 {
+	position: absolute;
+	max-width: 100px;
+	width: 23%;
+	bottom: 0;
+    left: 2%;
+}
+.illustration-1 img,
+.illustration-2 img,
+.illustration-3 img,
+.illustration-4 img,
+.illustration-5 img{
+	width: 100%;
+	height: 100%;
+    object-fit: contain;
+}
+.detail_wrapper {
+	width: 70%;
+    padding-left: 4%;
+	padding-bottom: 4%;
+}
+.detail_title {
+	width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-top: 15px;
+}
+.detail_title img {
+	width: 100%;
+	height: 100%;
+    object-fit: contain;
+}
+.detail_description {
+	width: 60%;
+    left: 50%;
+    transform: translateX(-40%);
+    position: relative;
+    line-height: 1.8;
+    margin-top: 25px;
+}
+.ground_figure {
+	width: 20%;
+	padding-bottom: 4%;
+}
+.ground_figure img {
+	width: 100%;
+	height: 100%;
+    object-fit: contain;
+	object-position: bottom;
+}
+.tour_image_wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 0 3px;
+}
+.tour_image {
+}
+.tour_image img {
+	width: 100%;
+	height: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+.point_area {
+	margin: 7% auto;
+	padding: 0 5%;
+}
+.point_wrapper {
+	position: relative;
+	width: 90%;
+	padding: 5%;
+	background: #64a49c;
+	color: #fff;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+.point_head_image {
+	position: absolute;
+	top: -50px;
+    left: 5%;
+	height: 5em;
+}
+.point_head_image img {
+	width: 100%;
+	height: 100%;
+    object-fit: contain;
+}
+.point_title {
+	font-size: 36px;
+	text-align: center;
+}
+.point_title span {
+	border-bottom: 4px solid #fff;
+	padding: 0 2% 2px;
+	width: 60%;
+    display: inline-block;
+}
+.point_description {
+	font-size: 16px;
+    width: 65%;
+    line-height: 2;
+    margin: 15px auto 0;
+}
+@media screen and (min-width: 1530px) {
+	.tour_top_illustration-2 {
+		width: 120px;
+		position: absolute;
+		right: 10%;
+		bottom: -20%;
+	}
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1529px) {
+	.building {
+		width: 30%;
+		position: absolute;
+		right: 5%;
+		bottom: -5px;
+	}
+	.tour_top_illustration-2 {
+		width: 100px;
+		position: absolute;
+		right: 0%;
+		bottom: unset;
+		top: 32%;
+	}
+}
+@media screen and (min-width: 1090px) and (max-width: 1299px) {
+	.building {
+		width: 33%;
+		position: absolute;
+		right: 5%;
+		bottom: -5px;
+	}
+	.tour_headline_wrapper {
+		position: relative;
+		width: 50%;
+		padding-top: 200px;
+		padding-left: 10%;
+	}
+	.tour_top_illustration-1 {
+		width: 10%;
+		position: absolute;
+		top: 30%;
+		left: 5%;
+	}
+	.tour_top_illustration-2 {
+		width: 100px;
+		position: absolute;
+		right: -5%;
+		bottom: unset;
+		top: 32%;
+	}
+	.tour_top_description {
+		width: 80%;
+		margin-top: 15px;
+		margin-left: 8px;
+		line-height: 1.8;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1089px) {
+	.building {
+		width: 33%;
+		position: absolute;
+		right: 5%;
+		bottom: -5px;
+	}
+	.tour_headline_wrapper {
+		position: relative;
+		width: 50%;
+		padding-top: 200px;
+		padding-left: 10%;
+	}
+	.tour_top_illustration-1 {
+		width: 10%;
+		position: absolute;
+		top: 30%;
+		left: 5%;
+	}
+	.tour_top_illustration-2 {
+		width: 100px;
+		position: absolute;
+		right: -5%;
+		bottom: unset;
+		top: 32%;
+	}
+	.tour_top_description {
+		width: 80%;
+		margin-top: 15px;
+		margin-left: 8px;
+		line-height: 1.8;
+    	font-size: 15px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.building {
+		width: 36%;
+		position: absolute;
+		right: 5%;
+		bottom: -5px;
+	}
+	.tour_top_description {
+		width: 98%;
+		margin-top: 15px;
+		margin-left: 8px;
+		line-height: 1.8;
+	}
+	.illustration-1 {
+		position: absolute;
+		width: 60px;
+		bottom: 0;
+		left: 6%;
+		top: 0%;
+	}
+	.illustration-3 {
+		position: absolute;
+		width: 20%;
+		bottom: 0%;
+		left: 1%;
+	}
+	.tour_headline_wrapper {
+		position: relative;
+		width: 50%;
+		padding-top: 200px;
+		padding-left: 10%;
+	}
+	.tour_top_illustration-1 {
+		width: 10%;
+		position: absolute;
+		top: 30%;
+		left: 5%;
+	}
+	.tour_top_illustration-2 {
+		width: 15%;
+		position: absolute;
+		right: -20%;
+		bottom: unset;
+		top: 22%;
+	}
+	.point_area {
+		margin: 15% auto;
+		padding: 0 5%;
+	}
+	.point_title {
+		font-size: 36px;
+		text-align: center;
+	}
+	.point_title span {
+		border-bottom: 4px solid #fff;
+		padding: 0 2% 2px;
+		width: 85%;
+		display: inline-block;
+	}
+	.point_description {
+		font-size: 16px;
+		width: 90%;
+		line-height: 2;
+		margin: 15px auto 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.tour_top_wrapper {
+		width: 100%;
+		height: auto;
+		color: #fff;
+		background-color: #64a49c;
+		position: relative;
+	}
+	.building {
+		width: 80%;
+		position: relative;
+		right: unset;
+		bottom: -5px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.tour_headline_wrapper {
+		position: relative;
+		width: 80%;
+		padding-top: 140px;
+		padding-left: 15%;
+	}
+	.tour_top_description {
+		width: 80%;
+		margin-top: 15px;
+		margin-left: 8px;
+		line-height: 1.8;
+	}
+	.tour_top_illustration-1 {
+		width: 10%;
+		position: absolute;
+		top: 19%;
+		left: 4%;
+	}
+	.tour_top_illustration-2 {
+		width: 15%;
+		position: absolute;
+		right: 5%;
+		bottom: -12%;
+		top: unset;
+	}
+	.detail_area {
+		width: 100%;
+		display: flex;
+		position: relative;
+		flex-direction: column;
+	}
+	.detail_wrapper {
+		width: 100%;
+		padding-left: 0;
+		padding-bottom: 4%;
+	}
+	.detail_description {
+		width: 80%;
+		margin: 5px 0 5px 0;
+		transform: translateX(-50%);
+		position: relative;
+		line-height: 1.8;
+		margin-top: 25px;
+	}
+	.ground_figure {
+		width: 55%;
+		padding-bottom: 6%;
+		left: 50%;
+		transform: translateX(-50%);
+		position: relative;
+	}
+	.image_area {
+		width: 100%;
+	}
+	.tour_main_wrapper {
+		width: 100%;
+		display: flex;
+		position: relative;
+		margin: 20px 0;
+		flex-direction: column;
+	}
+	.tour_image_wrapper {
+		flex-direction: column;
+	}
+	.illustration-1 {
+		position: absolute;
+		max-width: 60px;
+		bottom: 0;
+		left: 5%;
+		top: 35%;
+		width: 11%;
+	}
+	.illustration-2 {
+		position: absolute;
+		max-width: 90px;
+		right: 5%;
+		top: 81%;
+		width: 15%;
+	}
+	.illustration-3 {
+		position: absolute;
+		max-width: 120px;
+		width: 15%;
+		bottom: 4%;
+		left: 5%;
+	}
+	.illustration-4 {
+		position: absolute;
+		max-width: 120px;
+		right: 2%;
+		top: 64%;
+		width: 20%;
+	}
+	.illustration-5 {
+		position: absolute;
+		max-width: 120px;
+		width: 19%;
+		bottom: 5%;
+		left: 2%;
+	}
+	.point_head_image {
+		position: absolute;
+		top: -50px;
+		left: 50%;
+		height: 5.5em;
+		transform: translateX(-50%);
+		width: 52%;
+	}
+	.point_area {
+		margin: 15% auto;
+		padding: 0 5%;
+	}
+	.point_title {
+		font-size: 5vw;
+		text-align: center;
+	}
+	.point_title span {
+		border-bottom: 4px solid #fff;
+		padding: 25px 0 8px;
+		width: 88%;
+		display: inline-block;
+	}
+	.point_description {
+		font-size: 16px;
+		width: 90%;
+		line-height: 2;
+		margin: 15px auto 0;
+	}
+}

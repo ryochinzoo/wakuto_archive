@@ -1,0 +1,302 @@
+.wakuto_intro_wrapper {
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+}
+.wakuto_intro_visual {
+	width: 100%;
+	height: auto;
+}
+.wakuto_intro_visual img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.wakuto_intro_text {
+	width: 50%;
+    margin: 30px auto 40px;
+    line-height: 2.4;
+    font-weight: 100;
+    font-size: 15px;
+}
+.wakuto_ceo_wrapper {
+	width: 80%;
+	background: #fff;
+    margin: 0 auto;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+.wakuto_ceo_contents_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.wakuto_ceo_contents {
+	display: flex;
+	justify-content: flex-end;
+	padding: 60px 5% 40px 0;
+    align-items: flex-end;
+	width: 100%;
+}
+.wakuto_ceo_text {
+	width: 50%;
+    text-align: right;
+    padding: 0 5% 0 0;
+}
+.wakuto_ceo_headline {
+	text-align: left;
+}
+.wakuto_ceo_headline img {
+	height: 30px;
+	object-fit: contain;
+}
+.ceo_text_wrapper {
+	padding: 60px 5% 30px;
+	width: 100%;
+}
+.wakuto_ceo_body {
+	line-height: 2;
+	font-weight: 100;
+	font-size: 15px;
+	text-align: left;
+	margin: 20px 0 20px;
+}
+.wakuto_ceo_image {
+	width: 100%;
+	border-radius: 50px 0 0 50px;
+}
+.wakuto_ceo_image img {
+	width: 100%;
+	object-fit: cover;
+}
+.ceo_signature {
+	width: 50%;
+    position: relative;
+    margin: 0 0 0 auto;
+}
+.ceo_signature img {
+	width: 100%;
+    position: relative;
+}
+.wakuto_lts {}
+.wakuto_lts_wrapper {
+	padding: 0 15%;
+	display: flex;
+	justify-content: center;
+}
+.wakuto_lts_image,
+.wakuto_lts_text,
+.wakuto_org_image {
+	width: 100%;
+}
+.wakuto_lts_image img {
+	width: 90%;
+	object-fit: contain;
+}
+.wakuto_lts_headline {
+	font-size: 42px;
+	text-align: left;
+}
+.wakuto_lts_headline img {
+	height: 30px;
+}
+.wakuto_lts_body {
+	line-height: 2;
+	font-weight: 100;
+	font-size: 15px;
+	text-align: left;
+	margin: 20px 0 0;
+}
+.wakuto_org {
+	padding: 0 15%;
+}
+.wakuto_org_headline {
+	font-size: 42px;
+	text-align: left;
+}
+.wakuto_org_headline img {
+	height: 30px;
+}
+
+.wakuto_org_image img {
+	width: 100%;
+	object-fit: contain;
+}
+.wakuto_org_body {
+	line-height: 2;
+	font-weight: 100;
+	font-size: 15px;
+	text-align: left;
+	margin: 60px 0 0;
+}
+@media screen and (max-width: 1023px) {
+	.wakuto_ceo_wrapper {
+		width: 80%;
+		background: #fff;
+		margin: 0 auto;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+	}
+	.wakuto_ceo_contents_wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.wakuto_ceo_contents {
+		display: flex;
+		justify-content: center;
+		padding: 40px 0;
+		align-items: center;
+		width: 100%;
+	}
+	.wakuto_ceo_text {
+		width: 50%;
+		text-align: right;
+		padding: 0 5% 0 0;
+	}
+	.wakuto_ceo_headline {
+		text-align: left;
+	}
+	.wakuto_ceo_headline img {
+		height: 30px;
+		object-fit: contain;
+	}
+	.ceo_text_wrapper {
+		padding: 20px 5% 30px;
+		width: 90%;
+	}
+	.wakuto_ceo_body {
+		line-height: 2;
+		font-weight: 100;
+		font-size: 15px;
+		text-align: left;
+		margin: 20px 0 20px;
+	}
+	.wakuto_ceo_image {
+		width: 90%;
+		border-radius: 50px 0 0 50px;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+	}
+	.wakuto_ceo_image img {
+		width: 100%;
+		object-fit: cover;
+		border-radius: 25px;
+		-webkit-border-radius: 25px;
+	}
+	.ceo_signature {
+		width: 40%;
+		position: relative;
+		margin: 0 0 0 auto;
+	}
+	.ceo_signature img {
+		width: 100%;
+		position: relative;
+	}
+}
+@media screen and (min-width: 1700px){
+	.wakuto_intro_visual img {
+		width: 1700px;
+		object-fit: contain;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.wakuto_ceo_wrapper {
+		width: 1200px;
+		background: #fff;
+		margin: 0 auto;
+	}
+	.wakuto_lts_wrapper {
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		transform: translateX(-50%);
+		left: 50%;
+		width: 1200px;
+	}
+	.wakuto_org {
+		padding: 0;
+		position: relative;
+		transform: translateX(-50%);
+		left: 50%;
+		width: 1200px;
+	}
+	.wakuto_intro_text {
+		width: 50%;
+		margin: 30px 0 40px;
+		line-height: 2.4;
+		font-weight: 100;
+		font-size: 15px;
+		position: relative;
+		transform: translateX(-50%);
+		left: 50%;
+		width: 1200px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.wakuto_lts_image {
+		width: 100%;
+		text-align: center;
+	}
+	.ceo_signature {
+		width: 50%;
+		position: relative;
+		margin: 0 0 0 auto;
+	}
+	.wakuto_ceo_wrapper {
+		width: 100%;
+		background: #fff;
+	}
+	.wakuto_intro_text {
+		width: 80%;
+		margin: 30px auto 40px;
+		line-height: 2.4;
+		font-weight: 100;
+		font-size: 15px;
+	}
+	.wakuto_ceo_image img {
+		width: 100%;
+		object-fit: cover;
+		border-radius: 25px;
+	}
+	.wakuto_lts_wrapper {
+		padding: 0 10%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.wakuto_lts_body {
+		line-height: 2;
+		font-weight: 100;
+		font-size: 15px;
+		text-align: left;
+		margin: 20px 0;
+	}
+	.wakuto_ceo_contents {
+		display: flex;
+		justify-content: flex-end;
+		padding: 40px 0;
+		flex-direction: column-reverse;
+	}
+	.wakuto_ceo_image {
+		width: 93%;
+		border-radius: 50px 0 0 50px;
+		margin: 0 auto;
+	}
+	.wakuto_ceo_text {
+		width: 90%;
+		text-align: right;
+		padding: 0;
+	}
+	.wakuto_org_headline {
+		font-size: 42px;
+		text-align: left;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.wakuto_org {
+		padding: 0 10%;
+	}
+}

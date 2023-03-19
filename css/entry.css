@@ -1,0 +1,269 @@
+.form_head_wrapper {
+   width: 80%;
+   margin: 20px auto 10px;
+   font-weight: 100;
+}
+.form_head_info {
+   text-align: center;
+   font-size: 16px;
+}
+.form_head_notice {
+   color: #d34d6c;
+   font-size: 14px;
+}
+
+.contactform_wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contactform_7 {
+	width: 100%;
+}
+
+.contactform_7 table {
+	border-collapse: collapse;
+	border: none;
+	margin: 0 auto;
+	width: 80%;
+}
+.contactform_7 table th,
+.contactform_7 table td
+{
+	padding: 5px 0;
+}
+
+.contactform_7 table th {
+	width: 20%;
+	text-align: left!important;
+	font-size: 16px;
+}
+.contactform_7 table td {
+	width: 80%;
+}
+
+.contactform_7 table td select,
+.contactform_7 table td input,
+.contactform_7 table td textarea
+{
+	width: 100%;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 1px solid #ccc;
+}
+.contactform_7 table td select,
+.contactform_7 table td input 
+{
+	height: 60px;
+}
+.contactform_7 table td select {
+	-webkit-appearance: none;
+  	appearance: none;
+    padding-left: 20px;
+	font-size: 16px;
+}
+.contactform_7 table td select::-ms-expand {
+	display: none;
+}
+.form_jobs {
+	position: relative;
+}
+.form_jobs:after {
+	content:'';
+	position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
+    transform: rotate(45deg);
+    right: 20px;
+    top: 22px;
+	pointer-events:none
+}
+.contactform_7 table td input,
+.contactform_7 table td textarea
+{
+-moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contactform_7 input[type=submit] {
+    background: linear-gradient(to right, #64a49c, #64ac64);
+	position: relative;
+    font-size: 20px;
+    letter-spacing: 7px;
+	cursor: pointer;
+	padding: 25px 130px;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+    margin-left: 72px;
+}
+.contactform_7 input[type=submit]:hover {
+    background: linear-gradient(to right, #64ac64, #64a49c);
+}
+.contactform_7 input[type=checkbox] {
+	margin: 0;
+}
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0!important;
+}
+.small_font {
+	font-size: 12px;
+}
+.notes {
+	text-align: right;
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+.personal_info {
+	border: 1px solid #989898;
+	padding: 15px 15px 30px;
+	margin: 0 auto;
+	line-height: 2;
+}
+.form_foot_wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.confirmation {
+	text-align: center;
+    margin: 20px auto 0;
+    padding-bottom: 120px;
+}
+.confirm_message {
+	margin: 30px 0;
+	font-weight: 100;
+}
+.wpcf7 form.invalid .wpcf7-response-output {
+    border-color: #d34d6c!important;
+}
+/*送信成功*/
+div.wpcf7-mail-sent-ok {
+background:#d5edda;
+color:#64ac64;
+border:1px solid #c4e5cc;
+padding:10px
+}
+/*送信NG*/
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing,
+{
+	background:#f7d7da;
+	color:#d34d6c;
+	border:1px solid #d34d6c;
+	padding:10px
+	border-color: #d34d6c!important;
+}
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: none!important;
+}
+/*送信失敗*/
+div.wpcf7-mail-sent-ng {
+background:#f7d7da;
+color:#d34d6c;
+border:1px solid #f4c6cb;
+padding:10px
+}
+
+/*スパムなどで送信ブロックされた場合*/
+div.wpcf7-spam-blocked {
+background:#fff2cf;
+color:#d34d6c;
+border:1px solid #feedbd;
+padding:10px
+}
+
+.required::after {
+	content: " *";
+	color: #d34d6c;
+	vertical-align: top;
+	font-size: 12px;
+	margin-left: 3px;
+}
+@media all and (max-width: 767px) {
+	table th, table td {
+		display: block;
+		width: 100%;
+	}
+	.contactform_7 table td {
+		width: 100%;
+	}
+	.contactform_7 table th {
+		width: 100%;
+		text-align: left!important;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 790px) {
+	.contactform_wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.personal_info {
+		border: 1px solid #989898;
+		padding: 15px 15px 30px;
+		margin: 0 auto;
+		line-height: 2;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 499px) {
+	.contactform_7 input[type=submit] {
+		background: linear-gradient(to right, #64a49c, #64ac64);
+		position: relative;
+		font-size: 20px;
+		letter-spacing: 7px;
+		cursor: pointer;
+		padding: 25px 130px;
+		color: #fff;
+		border: none;
+		font-weight: bold;
+		margin-left: 0px;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 549px) {
+	.contactform_7 input[type=submit] {
+		background: linear-gradient(to right, #64a49c, #64ac64);
+		position: relative;
+		font-size: 20px;
+		letter-spacing: 7px;
+		cursor: pointer;
+		padding: 25px 130px;
+		color: #fff;
+		border: none;
+		font-weight: bold;
+		margin-left: 40px;
+	}
+}
+@media screen and (min-width: 550px) and (max-width: 564px) {
+	.contactform_7 input[type=submit] {
+		background: linear-gradient(to right, #64a49c, #64ac64);
+		position: relative;
+		font-size: 20px;
+		letter-spacing: 7px;
+		cursor: pointer;
+		padding: 25px 130px;
+		color: #fff;
+		border: none;
+		font-weight: bold;
+		margin-left: 40px;
+	}
+}
+@media screen and (min-width: 565px) and (max-width: 589px) {
+	.contactform_7 input[type=submit] {
+		background: linear-gradient(to right, #64a49c, #64ac64);
+		position: relative;
+		font-size: 20px;
+		letter-spacing: 7px;
+		cursor: pointer;
+		padding: 25px 130px;
+		color: #fff;
+		border: none;
+		font-weight: bold;
+		margin-left: 52px;
+	}
+}

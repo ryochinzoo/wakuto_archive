@@ -1,0 +1,232 @@
+.recruit_detail_title {
+	font-size: 30px;
+    border-bottom: 2px solid #64AC64;
+    padding-bottom: 5px;
+    margin: 0 0 30px;
+}
+.recruit_detail_table_title, 
+.recruit_detail_skills_title {
+	position: relative;
+	color: #64AC64;
+	font-size: 20px;
+	margin: 5px 0 5px 20px;
+}
+.recruit_detail_table_title::before, 
+.recruit_detail_skills_title::before {
+	content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: #64ac64;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+	margin-left: -25px;
+}
+
+.recruit_detail_personality_title,
+.recruit_detail_process_title
+{
+	color: #64AC64;
+	font-size: 20px;
+	margin: 5px 0;
+}
+.recruit_detail_process_img {
+	width: 90%;
+    padding-top: 15px;
+}
+.recruit_detail_process_img img {
+	width: 100%;
+}
+.recruit_detail_personality_contents,
+.recruit_detail_skills_contents {
+	font-size: 16px;
+	line-height: 2;
+}
+.recruit_detail_skills_contents p {
+	padding-left: 20px;
+}
+.recruit_detail_skills_contents ul {
+	padding-left: 40px;
+    padding-inline-start: 40px;
+}
+.recruit_detail_process,
+.recruit_detail_skills,
+.recruit_detail_personality {
+	margin-bottom: 40px;
+}
+
+.recruit_detail_table_contents table {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	margin-bottom: 60px;
+}
+
+.recruit_detail_table_contents th {
+	width: 20%;
+	background-color: #E5E5E5;
+	border: 1px solid #CCC;
+	padding: 30px;
+}
+.recruit_detail_table_contents td {
+	width: 90%;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 30px;
+	line-height: 2;
+}
+.recruit_detail_table_contents tr:last-child td {
+	padding: 30px;
+}
+.recruit_job{
+	margin-bottom: 80px;
+}
+.job_headline {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.job_headline img {
+	width: 100%;
+	object-fit: contain;
+}
+.job_link_wrapper {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	text-decoration: none;
+	color: #000;
+	margin: 15px 0;
+	align-items: center;
+}
+.job_link_wrapper:hover {
+	outline: 4px solid #64AC64;
+	outline-offset: -4px;
+}
+.job_link_wrapper .job_link_text {
+	padding: 20px 40px;
+}
+.job_link_arrow {
+	width: 30px;
+	height: 30px;
+	margin-right: 25px;
+}
+.job_link_arrow img {
+	width: 100%;
+	object-fit: contain;
+}
+.control_buttons_recruit {
+	position: relative;
+	padding: 30px 13% 80px;
+}
+.control_buttons_recruit_single {
+	position: relative;
+	padding: 30px 0 80px;
+}
+.page_buttons_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.buttons_recruit {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.buttons_leftside_single {
+	text-align: left;
+}
+.buttons_rightside_single {
+	text-align: right;
+}
+.buttons_leftside .page_button {
+	margin-right: 30px;
+}
+.page_button img {
+	width: 100%;
+	height: 60px;
+	object-fit: contain;
+	cursor: pointer;
+}
+.page_button:hover img {
+	opacity: 0.7;
+	transition-duration: 0.8s;
+}
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+	a.anchor {
+		display: block;
+		padding-top: 100px;
+		margin-top: -50px;
+	}
+}
+@media screen and (max-width: 849px) {
+	.recruit_detail_contents {
+		margin-bottom: 75px;
+	}
+	.pageContentsWrapper {
+	    padding: 0 5%;
+	}
+	.job_link_wrapper .job_link_text {
+	    padding: 20px 40px;
+	    width: 80%;
+	}
+	.recruit_detail_process_img {
+		width: 100%;
+		padding-top: 15px;
+	}
+	.recruit_detail_personality_contents, .recruit_detail_skills_contents {
+		font-size: 14px;
+		line-height: 2;
+	}
+
+	.recruit_detail_title {
+		font-size: 28px;
+		border-bottom: 2px solid #64AC64;
+		padding-bottom: 5px;
+		margin: 0 0 30px;
+	}
+	.recruit_detail_table_title, 
+	.recruit_detail_skills_title {
+		color: #64AC64;
+		font-size: 18px;
+		margin: 10px 0 10px 20px;
+	}
+	
+	.recruit_detail_personality_title,
+	.recruit_detail_process_title
+	 {
+		color: #64AC64;
+		font-size: 18px;
+		margin: 10px 0;
+	}
+
+	.recruit_detail_personality_contents,
+	.recruit_detail_skills_contents {
+		font-size: 14px;
+		line-height: 2;
+	}
+	
+	.recruit_detail_table_contents th {
+		font-size: 14px;
+		padding: 10px;
+	}
+	.recruit_detail_table_contents td {
+		width: 90%;
+		background-color: #FFF;
+		border: 1px solid #CCC;
+		padding: 30px;
+		line-height: 2;
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 677px) {
+	.buttons_recruit {
+		display: flex;
+		justify-content: unset;
+		width: 100%;
+		flex-direction: column;
+	}
+}

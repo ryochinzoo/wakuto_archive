@@ -1,0 +1,135 @@
+.news_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+   	padding: 50px 20% 60px;
+}
+.page-numbers {
+	text-decoration: none;
+	color: #707070;
+	padding: 10px 16px;
+	border: 1px solid #CECECE;
+	background-color: #fff;
+}
+.page-numbers.current {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 16px;
+	border: 1px solid #CECECE;
+	background-color: #64ac64;
+}
+
+.page-numbers.last, 
+.page-numbers.first {
+	width: 2%;
+    display: inline-block;
+    position: relative;
+}
+.page-numbers.next img,
+.page-numbers.prev img,
+.page-numbers.last img, 
+.page-numbers.first img {
+	width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.page-numbers.next,
+.page-numbers.prev{
+	width: 1%;
+    display: inline-block;
+    position: relative;
+}
+.pagination_wrapper {
+	padding: 0 20% 60px;
+	margin: 0 auto;
+	text-align: center;
+}
+.news_single_wrapper {
+   	padding: 50px 20% 60px;
+}
+.news_backto_list {
+	padding: 0 20% 120px;
+	margin: 0 auto;
+	width: 200px;
+}
+.news_backto_list img {
+	object-fit: contain;
+	width: 100%;
+}
+.news_single_title {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.news_single_content {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 2.1;
+}
+.news_single_content img {
+	width: 100%;
+}
+.single_date_category {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
+.news_info {
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 100px;
+	margin-top: -20px;
+}
+.news_title {
+	font-size: 21px;
+    margin-top: -6px;
+	margin-bottom: 10px;
+}
+.news_detail {
+	font-weight: 200;
+}
+.news_detail a {
+	color: #64ac64;
+}
+.news_detail_wrapper {
+	width: 80%;
+}
+.news_category {
+	background-color: #989898;
+	padding: 2px 12px;
+	color: #fff;
+	text-align: center;
+	margin: 0 15px;
+	width: 100%;
+}
+.news_wrapper ul {
+	list-style: none;
+	padding-inline-start: 0!important;
+}
+
+.news_wrapper ul li{
+	line-height: 2;
+    margin-bottom: 30px;
+	display: flex;
+}
+.news_headline_wrapper {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+	.news_wrapper,
+	.news_single_wrapper {
+		padding: 50px 10% 60px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.news_wrapper ul li{
+		line-height: 2;
+		margin-bottom: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+	.news_detail_wrapper {
+		width: 100%;
+	}
+}

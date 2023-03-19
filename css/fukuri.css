@@ -1,0 +1,123 @@
+.fukuri_wrapper {
+	width: 100%;
+	margin-top: 30px;
+}
+.fukuri_contents {
+}
+.fukuri_title {
+	height: 35px;
+	margin-bottom: 35px;
+}
+.fukuri_title img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.fukuri_description {
+	padding: 0 18%;
+	line-height: 2;
+	margin-bottom: 80px;
+	font-weight: 100;
+}
+.fukuri_comment_wrapper {
+	padding: 0 18%;
+}
+.odd_contents {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.even_contents {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+}
+.comment {
+	font-weight: bold;
+	color: #64ac64;
+	line-height: 2;
+	background-color: #fff;
+	padding: 20px 30px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+.odd_comment {
+	margin-left: 35px;
+	position: relative;
+}
+.odd_comment::before {
+	content: "";
+    position: absolute;
+    top: 28%;
+    left: -40px;
+    margin-top: -15px;
+    border: 20px solid transparent;
+    border-right: 28px solid #fff;
+}
+.even_comment {
+	margin-right: 35px;
+	position: relative;
+}
+.even_comment::before {
+	content: "";
+	position: absolute;
+	top: 28%;
+	left: 99%;
+	margin-top: -15px;
+	border: 20px solid transparent;
+	border-left: 28px solid #fff;
+	
+}
+.comment_image {}
+.comment_image img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+    border: 9px solid #64ac64;
+}
+@media screen and (max-width: 768px) {
+	.fukuri_title {
+		height: 25px;
+		margin-bottom: 35px;
+	}
+	.fukuri_comment_wrapper {
+		padding: 0 8%;
+	}
+	.odd_contents, .even_contents {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.comment_image {
+		margin: 0 auto;
+	}
+	.even_comment, .odd_comment {
+		margin-right: 0;
+		margin-left: 0;
+		margin-top: 35px;
+		position: relative;
+	}
+	.even_comment::before {
+		content: "";
+		position: absolute;
+		top: -47px;
+		left: 44%;
+		margin-top: 0px;
+		border: 20px solid transparent;
+		border-bottom: 28px solid #fff;
+	}
+	.odd_comment::before {
+		content: "";
+		position: absolute;
+		top: -47px;
+		left: 44%;
+		margin-top: 0px;
+		border: 20px solid transparent;
+		border-bottom: 28px solid #fff;
+	}
+	.fukuri_description {
+		padding: 0 8%;
+		line-height: 2;
+		margin-bottom: 80px;
+		font-weight: 100;
+	}
+}
